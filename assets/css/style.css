@@ -164,7 +164,7 @@ body.nav-active { overflow: hidden; }
 
 .section { padding-block: var(--section-padding); }
 
-.w-100 { width: 100%; }
+.w-100 { width: 100%;}
 
 .h1,
 .h2,
@@ -374,8 +374,9 @@ body.nav-active { overflow: hidden; }
   -webkit-mask-position: center;
   mask-size: auto;
   -webkit-mask-size: auto;
-  width: 70%;
+  width: 100%;
   height: auto;
+  padding-top: 5rem;
 }
 
 .hero .shape {
@@ -853,3 +854,55 @@ textarea.input-field {
     width: 50%;
   }
 }
+
+
+
+/*-----------------------------------*\
+  #PROJECTS
+\*-----------------------------------*/
+/* 
+.project { border-block: 1px solid var(--cadet-blue-crayola_a20); }
+
+.project .title-wrapper { margin-block-end: 40px; }
+
+.project .btn { margin-block-start: 24px; }
+
+.project .grid-list { gap: 40px; }
+
+.project-card {
+  --padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding);
+  border-radius: var(--radius-8);
+  overflow: hidden;
+}
+
+.project-card-1,
+.project-card-2,
+:is(.project-card-3, .project-card-4) .card-content { padding: var(--padding); }
+
+.project-card-1 { padding-block-end: 0; }
+
+.project :is(.project-card-3, .project-card-4) { gap: 0; }
+
+.project-card .card-tag {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+}
+
+.project-card .card-title { margin-block: 16px; }
+
+.project-card .card-text { margin-block-end: 20px; }
+
+.project-card .btn-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: var(--fw-700);
+  transition: var(--transition-1);
+}
+
+.project-card .btn-text:is(:hover, :focus-visible) { gap: 10px; } */
